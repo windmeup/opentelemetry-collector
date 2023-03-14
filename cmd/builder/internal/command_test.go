@@ -15,6 +15,7 @@
 package internal
 
 import (
+	"github.com/windmeup/opentelemetry-collector/cmd/builder/internal/builder"
 	"strings"
 	"testing"
 
@@ -22,8 +23,6 @@ import (
 	flag "github.com/spf13/pflag"
 	"github.com/stretchr/testify/assert"
 	"go.uber.org/zap"
-
-	"go.opentelemetry.io/collector/cmd/builder/internal/builder"
 )
 
 func TestCommand(t *testing.T) {

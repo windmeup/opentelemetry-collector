@@ -12,10 +12,12 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package internal // import "go.opentelemetry.io/collector/cmd/builder/internal"
+package internal // Package internal import "github.com/windmeup/opentelemetry-collector/cmd/builder/internal"
 
 import (
 	"fmt"
+	"github.com/windmeup/opentelemetry-collector/cmd/builder/internal/builder"
+	"github.com/windmeup/opentelemetry-collector/cmd/builder/internal/config"
 	"strings"
 
 	"github.com/knadh/koanf"
@@ -25,9 +27,6 @@ import (
 	"github.com/spf13/cobra"
 	flag "github.com/spf13/pflag"
 	"go.uber.org/zap"
-
-	"go.opentelemetry.io/collector/cmd/builder/internal/builder"
-	"go.opentelemetry.io/collector/cmd/builder/internal/config"
 )
 
 const (
