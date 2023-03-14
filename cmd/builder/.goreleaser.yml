@@ -29,7 +29,7 @@ release:
     owner: windmeup
     name: opentelemetry-collector
   header: |
-    ### Images and binaries here: https://github.com/windmeup/opentelemetry-collector-releases/releases/tag/{{ .Tag }}
+    ### Images and binaries here: https://github.com/windmeup/opentelemetry-collector/releases/tag/{{ .Tag }}
 archives:
   - format: binary
 checksum:
