@@ -1,6 +1,7 @@
 before:
   hooks:
     - go mod download
+# go releaser pro
 #monorepo:
 #  tag_prefix: cmd/builder/
 #  dir: cmd/builder
