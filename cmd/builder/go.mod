@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-module go.opentelemetry.io/collector/cmd/builder
+module github.com/windmeup/opentelemetry-collector/cmd/builder
 
 go 1.19
 
