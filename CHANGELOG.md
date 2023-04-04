@@ -4,6 +4,35 @@
 
 <!-- next version -->
 
+## v1.0.0-rc9/v0.75.0
+
+### 🛑 Breaking changes 🛑
+
+- `featuregate`: Remove deprecated featuregate.FlagValue (#7401)
+
+### 💡 Enhancements 💡
+
+- `provider`: Added userfriendly error on incorrect type. (#7399)
+
+### 🧰 Bug fixes 🧰
+
+- `loggingexporter`: Fix display of bucket boundaries of exponential histograms to correctly reflect inclusive/exclusive bounds. (#7445)
+- `exporterhelper`: Fix a deadlock in persistent queue initialization (#7400)
+
+## v1.0.0-rc8/v0.74.0
+
+### 🛑 Breaking changes 🛑
+
+- `consumererror`: Remove deprecated funcs in consumererror (#7357)
+
+### 🚩 Deprecations 🚩
+
+- `featuregate`: Deprecate `FlagValue` in favor of `NewFlag`. (#7042)
+
+### 💡 Enhancements 💡
+
+- `service`: Enable connectors by default by moving service.connectors featuregate to beta (#7369)
+
 ## v0.73.0/v1.0.0-rc7
 
 ### 🛑 Breaking changes 🛑
