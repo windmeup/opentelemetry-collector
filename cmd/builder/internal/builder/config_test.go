@@ -16,7 +16,6 @@ package builder
 
 import (
 	"errors"
-	"github.com/windmeup/opentelemetry-collector/cmd/builder/internal/config"
 	"os"
 	"strings"
 	"testing"
@@ -27,6 +26,8 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zaptest"
+
+	"github.com/windmeup/opentelemetry-collector/cmd/builder/internal/config"
 )
 
 func TestParseModules(t *testing.T) {

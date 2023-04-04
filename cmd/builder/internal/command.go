@@ -16,8 +16,6 @@ package internal // Package internal import "github.com/windmeup/opentelemetry-c
 
 import (
 	"fmt"
-	"github.com/windmeup/opentelemetry-collector/cmd/builder/internal/builder"
-	"github.com/windmeup/opentelemetry-collector/cmd/builder/internal/config"
 	"strings"
 
 	"github.com/knadh/koanf"
@@ -27,6 +25,9 @@ import (
 	"github.com/spf13/cobra"
 	flag "github.com/spf13/pflag"
 	"go.uber.org/zap"
+
+	"github.com/windmeup/opentelemetry-collector/cmd/builder/internal/builder"
+	"github.com/windmeup/opentelemetry-collector/cmd/builder/internal/config"
 )
 
 const (
