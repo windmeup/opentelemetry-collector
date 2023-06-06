@@ -3,8 +3,8 @@ module go.opentelemetry.io/collector/consumer
 go 1.19
 
 require (
-	github.com/stretchr/testify v1.8.2
-	go.opentelemetry.io/collector v0.78.2
+	github.com/stretchr/testify v1.8.4
+	go.opentelemetry.io/collector v0.79.0
 	go.opentelemetry.io/collector/pdata v1.0.0-rcv0012
 )
 
